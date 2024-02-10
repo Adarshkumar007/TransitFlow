@@ -1,0 +1,536 @@
+@media screen and (max-width:960px) and (min-width:630px) {
+    .logo-header{
+
+        flex-direction: column;
+       width: 40rem;
+       }
+
+       .logo{
+        margin-bottom: -8rem
+    
+    }
+    
+    .icon-title{
+        font-size: 34px;
+    
+    }
+    
+    .addressbar{
+        gap: 4rem;
+    }
+    
+
+    .upper-time-text,.lower-time-text,.upper-email-text,.lower-email-text,.upper-call-text,.lower-call-text{
+    font-size: 11px;
+    }
+    #time,#email,#call{
+        width:2rem;
+        height: 2rem;
+    
+    }
+    
+    /* menu */
+
+.menu-container {
+    width: 40rem;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.lists {
+    font-size: 19px;
+}
+
+
+.under-line{
+    width: 52px;
+}
+
+.social-container{
+    width: 8rem;
+}
+
+.social-icons img{
+    width:1.5rem;
+    height:1.5rem;
+}
+.req-button{
+    width: 7.5rem;
+    font-size: 13px;
+    line-height: 12px;
+}
+
+/* banner */
+.banner{
+    height: 683px;
+}
+.banner-tub{
+    margin-left: 4rem ;
+}
+
+
+.subtext{
+   
+font-size: 11px;
+}
+
+.subcontents-container .heading{
+font-size: 29px;
+line-height: 38px;
+}
+
+.banner-text-container {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    width: 32rem;
+    /* position: absolute; */
+    height: 25rem;
+}
+
+/* services */
+.services-container{
+    height: 30rem;
+    top: -108px;
+
+}
+
+.services{
+    width: 40rem;
+    margin-top: 0px;
+    gap: 0rem;
+    flex-direction: column;
+}
+.services .heading{
+    padding-left: 1.5rem;
+    margin-top: -6rem;
+}
+
+
+.test{
+    color: green;
+    font-size: 70px;
+}
+
+
+
+.service-content{
+    gap: 1.5rem;
+    padding-left: 1.5rem;
+}
+.upperservice-content{
+    gap: 2rem;
+}
+
+  
+
+.leftupperservice-content,.rightupperservice-content,.leftlowerservice-content,.rightlowerservice-content{
+    gap: 12px;
+}
+
+.lloyd-background{
+
+    height:  14rem;;
+}
+
+
+.whyus-box{
+    width: 38rem;
+    margin-top: -111px;
+}
+.lower-content {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+    width: 23rem;
+    align-items: start;
+    flex-direction: column;
+}
+
+.whybox-content-div{
+    width: 89vw;
+    display: flex;
+    align-items: end;
+    margin-top: -2rem;
+}
+.left-box{
+    margin: 58px 0px 64px 22px;
+    width: 23rem;
+ 
+}
+
+.solution{
+
+font-size: 20px;
+
+}
+.soloution-subtitle{
+    font-size: 12px;
+    line-height: 13px;
+
+}
+
+
+.delivery{
+    width: 12rem;
+    height: 3rem;
+    z-index: 2;
+}
+.optimize{
+    width: 15rem;
+    height: 3rem;
+    z-index: 2;
+}
+
+.right-box img{
+    margin: 55px 15px 15px -74px;
+    width: 18rem;
+    height: 24rem
+
+}
+
+.counter-box{
+    width: 35rem;
+}
+
+/* Projects  */
+.safe-container{
+    top: 129rem;
+ }
+ .flex-image {
+    margin: 0;
+    width: 20%;
+    height: 75%;
+}
+ 
+  /* testomonial */
+
+.testoomial-container{
+    width: 40rem;
+   
+}
+
+.testonomial-caption-container {
+    padding-left: 24px;
+}
+
+.testonomial-title-container{
+    gap: 7rem;
+}
+
+#testonomial-title{
+    font-size: 30px;
+    padding-left: 21px;
+}
+.direction-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 18px;
+}
+
+
+
+
+
+.first-review-container img,.second-review-container img{
+    width: 83%;
+    height: 61%;
+}
+ 
+/* why choose us */
+.choose-us-main-container{
+    flex-direction: column;
+    height: 58rem;
+}
+
+.first-half{
+    width: 100vw;
+}
+.plane-image{
+    width: 80%;
+    height: 70%;
+    margin-left: 0rem;
+}
+.feature-tag{
+    width: 17rem;
+    height: 6rem;
+    z-index: 2;
+    margin-top: -3rem;
+    margin-left: -2rem;
+}
+.second-half{
+    width: 100%;
+}
+.second-half-content .caption {
+padding-left: 24px;
+}
+.second-half-content{
+    width: 40rem;
+    height: 55%;
+
+}
+
+
+.second-half-content .caption p{
+    font-size: 13px;
+    
+}
+.second-half-content  .title p{
+    font-size: 33px;
+    line-height: 29px;
+    padding-left: 25px;
+}
+.summary p{
+    font-size: 16px;
+    padding-left: 28px;
+}
+.options{
+    width: 90%;
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(2,1fr);
+}
+
+.option{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    padding-left: 27px;
+}
+.option-icon{
+    width: 45px;
+    height: 45px;
+}
+.option-info{
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1C1F35;
+
+}
+.team-details-container{
+    width: 40rem;
+}
+
+.info-subtitle .subtitle{
+    font-size: 17px;
+}
+.teamname{
+    font-size: 23px;
+}
+.team-members{
+    justify-content:safe;
+    align-items: normal;
+}
+.team-members img{
+    height: 69%;
+}
+
+.contact-container{
+    height: fit-content;
+   
+}
+.inner-contatct-container{
+    width: 40rem;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+}
+.upper-contact-container{
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 11px;
+    align-content: center;
+}
+.lower-contact-cotainer{
+    width: 73%;
+    height: 31%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+.client-logo{
+    width: 97%;
+    height: 95%;
+}
+.lower-contact-cotainer img{
+    width: 97%;
+    height: 95%;
+}
+
+.contact-types-container{
+    width: 97%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-line{
+    padding-right: 1px;
+}
+.contact-subtitle{
+  
+    font-size: 16px;
+    
+}
+
+.contacttitle{
+    font-size: 33px;
+   
+}
+
+
+.contact-summary .summary{
+    font-size: 17px;
+    text-align: justify;
+}
+
+.contact-types{
+    width: 83%;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 13px;
+    margin-left: 3rem;
+}
+
+
+.contact-icon-container .icon{
+    width: 48px;
+    height: 47px
+}
+.contact-text{
+    font-size: 11px;
+    
+}
+
+.contact-form-container{
+    justify-content: center;
+    align-items: center;
+}
+
+
+.others{    
+    margin-left: 18rem;
+}
+
+textarea{
+    width: 94%;
+    height: 5rem;
+    margin-left: 2px;
+}
+.submit img{
+    width: 146px;
+    height: 48px;
+    margin-top: 27px;
+    margin-left: 105px;
+}
+.personal {
+    margin-left: 18rem;
+}
+
+
+.blog-inner-container{
+    width: 40rem;
+}
+
+
+.line-caption{
+    display: flex;
+}
+
+.blog{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #D6D6D6;
+}
+.blog-image,.blog-image2,.blog-image3{
+    width: 46%;
+
+}
+
+
+/* footer */
+.emptydiv1{
+    width: 0;
+
+}
+
+
+.footer-logo-content{
+    width: 30%;
+
+}
+.footer-logo-content img{
+    width: 62%;
+    height: 29px;
+}
+
+.footer-mail,.footer-call{
+    margin-left: -21px;
+
+}
+#footer-icon{
+    width: 46px;
+    height: 45px;
+}
+.icaption{
+    margin-top: 38px;
+}
+.pages-utility{
+    width: 30%;
+
+}
+
+.page-name{
+    margin-left: 0rem;
+}
+.footer-item-lists{
+    padding-left: 3px;
+}
+
+.subscribe-contaier{
+    width: 40%;
+}
+.page-name1{
+    padding-left: 0rem
+}
+
+.email-textbox{
+    padding-left: 0rem;
+    
+}
+
+.email-textbox input{
+    width: 60%;
+   
+    
+   
+}
+.footer-social-buttons{
+    padding-left: 0rem;
+}
+
+
+.inner-footer-end{
+    width: 40rem;
+}
+
+
+.other-option-lists{
+    margin-left: -5rem;
+}
+
+
+
+}
