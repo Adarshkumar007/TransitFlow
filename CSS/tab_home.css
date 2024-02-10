@@ -222,6 +222,31 @@ font-size: 20px;
     font-size: 30px;
     padding-left: 21px;
 }
+.photo-name {
+    display: flex;
+    gap: 0;
+}
+.author-name {
+    font-family: Rubik;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 0px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #091242;
+    margin-bottom: 6px;
+    margin-top: 23px;
+}
+.author-position {
+    font-family: Krub;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #091242;
+    margin-top: 0;
+}
 .direction-btn{
     display: flex;
     align-items: center;
@@ -229,13 +254,9 @@ font-size: 20px;
     padding-top: 18px;
 }
 
-
-
-
-
-.first-review-container img,.second-review-container img{
-    width: 83%;
-    height: 61%;
+.reviewer-image{
+    display: flex;
+    gap: 20px;
 }
  
 /* why choose us */

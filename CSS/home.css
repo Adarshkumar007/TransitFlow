@@ -852,6 +852,76 @@ color:#666C89;
     display: flex;
     align-items: center;
     justify-content: center;
+
+}
+.review-box{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.reviewer{
+    width: 70px;
+    height: 70px;
+}
+.author-name{
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 0px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #091242;
+    margin-bottom: 6px;
+    margin-top: 23px;   
+}
+.author-position{
+    font-family: Krub;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #091242;
+    margin-top: 0;
+}
+.reviewer-image{
+    display: flex;
+    gap: 119px;
+}
+.photo-name{
+    display: flex;
+    gap: 8px;
+
+}
+.revieer-title{
+    display: flex;
+    flex-direction: column;
+}
+.quote-image{
+    width: 65px;
+    height: 65px;
+}
+.reviwer-say{
+    display: flex;
+    align-items: start;
+}
+.thought{
+    font-family: Krub;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #666C89;
+}
+.ratings{
+    display: flex;
+    align-items: start;
+
+}
+.star{
+    height: 31px;
 }
 .second-review-container{
     background-color: #091242;
@@ -860,10 +930,7 @@ color:#666C89;
     justify-content: center;
 }
 
-.first-review-container img,.second-review-container img{
-    width: 74%;
-    height: 61%;
-}
+
 
 /* why choose us */
 .choose-us-main-container{
