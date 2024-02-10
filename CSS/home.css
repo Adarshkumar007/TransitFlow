@@ -464,7 +464,7 @@ margin-top: -1rem;
     top: 79rem;
 }
 .lloyd{
-    background-image: url("C:/Users/hp/Desktop/twp/images/lloyd.jpg");
+    background-image: url("../images/lloyd.jpg");
     background-repeat: no-repeat;
     background-position:center;
     background-size: cover;
@@ -748,7 +748,7 @@ color:#666C89;
  }
  
  .more-work{
-    background-image: url("C:/Users/hp/Desktop/twp/images/more.png");
+    background-image: url("../images/more.png");
     width: 10rem;
     height: 3rem;
     background-repeat: no-repeat;
@@ -888,7 +888,7 @@ color:#666C89;
 .plane-image{
     width: 100%;
     height: 70%;
-    background-image: url(C:/Users/hp/Desktop/twp/images/plane.png);
+    background-image: url("../images/plane.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -896,7 +896,7 @@ color:#666C89;
     margin-left: 10rem;
 }
 .feature-tag{
-    background-image: url(C:/Users/hp/Desktop/twp/images\/FeatureTag.png);
+    background-image: url("../images/FeatureTag.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -1401,9 +1401,9 @@ textarea{
     background-position: center;
     background-size: cover;
 }
-.blog-image{background-image: url("C:/Users/hp/Desktop/twp/images/blog1.png");}
-.blog-image2{background-image:url("C:/Users/hp/Desktop/twp/images/blog2.png");}
-.blog-image3{background-image:url("C:/Users/hp/Desktop/twp/images/blog3.png");}
+.blog-image{background-image: url("../images/blog1.png");}
+.blog-image2{background-image:url("../images/blog2.png");}
+.blog-image3{background-image:url("../images/blog3.png");}
 
 .blog-time-date{
     height: 80%;
@@ -1514,7 +1514,7 @@ footer{
 .footer-banner{
     width: 100%;
     height: 40%;
-    background-image: url("C:/Users/hp/Desktop/twp/images/footer_banner.png");
+    background-image: url("../images/footer_banner.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
